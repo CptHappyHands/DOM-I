@@ -41,13 +41,25 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-let navBar = document.querySelectorAll('a');
+// let navColor = document.getElementsByTagName('nav');
+// navColor.style.color = "green";
+
+let navBar = document.querySelectorAll('header nav a');
+
+// navBar.style.color = 'green';
 navBar[0].textContent = "Services";
+navBar[0].style.color = "green";
 navBar[1].textContent = "Product";
+navBar[1].style.color = "green";
 navBar[2].textContent = "Vision";
+navBar[2].style.color = "green";
 navBar[3].textContent = "Features";
+navBar[3].style.color = "green";
 navBar[4].textContent = "About";
+navBar[4].style.color = "green";
 navBar[5].textContent = "Contact";
+navBar[5].style.color = "green";
+
 
 let codePic = document.getElementById("middle-img");
 codePic.setAttribute('src', siteContent['main-content']["middle-img-src"]);
