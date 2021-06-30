@@ -60,3 +60,23 @@ domTitle.textContent = "Dom is Awesome!";
 
 let buttonEl = document.querySelector("button");
 buttonEl.textContent = "Get Started";
+
+let contentTitle = document.querySelectorAll('h4');
+contentTitle[0].textContent = "Features";
+contentTitle[1].textContent = "About";
+contentTitle[2].textContent = "Services";
+contentTitle[3].textContent = "Product";
+contentTitle[4].textContent = "Vision";
+contentTitle[5].textContent = "Contact";
+
+let contentEl = document.querySelectorAll('p');
+contentEl[0].textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum sapiente voluptates illo delectus ex eveniet, ea quos, ipsa suscipit quae earum ducimus obcaecati, commodi minus! Officiis magnam aliquid natus!";
+contentEl[1].textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum sapiente voluptates illo delectus ex eveniet, ea quos, ipsa suscipit quae earum ducimus obcaecati, commodi minus! Officiis magnam aliquid natus!";
+contentEl[2].textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum sapiente voluptates illo delectus ex eveniet, ea quos, ipsa suscipit quae earum ducimus obcaecati, commodi minus! Officiis magnam aliquid natus!";
+contentEl[3].textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum sapiente voluptates illo delectus ex eveniet, ea quos, ipsa suscipit quae earum ducimus obcaecati, commodi minus! Officiis magnam aliquid natus!";
+contentEl[4].textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum sapiente voluptates illo delectus ex eveniet, ea quos, ipsa suscipit quae earum ducimus obcaecati, commodi minus! Officiis magnam aliquid natus!";
+contentEl[5].textContent = "123 Way 456 Street";
+contentEl[6].textContent = "1 (888) 888-8888";
+contentEl[7].textContent = "sales@greatidea.io";
+contentEl[8].textContent = "Copyright Great Idea! 2018";
+
