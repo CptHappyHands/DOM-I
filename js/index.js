@@ -44,6 +44,8 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 // let navColor = document.getElementsByTagName('nav');
 // navColor.style.color = "green";
 
+let newNavHeader = document.querySelector('nav');
+
 let navBar = document.querySelectorAll('header nav a');
 
 // navBar.style.color = 'green';
@@ -91,4 +93,16 @@ contentEl[5].textContent = "123 Way 456 Street";
 contentEl[6].textContent = "1 (888) 888-8888";
 contentEl[7].textContent = "sales@greatidea.io";
 contentEl[8].textContent = "Copyright Great Idea! 2018";
+
+const newNav1 = document.createElement('a');
+newNav1.textContent = "Stuff";
+newNav1.style.fontSize = "16px";
+newNav1.style.color = "green";
+newNavHeader.appendChild(newNav1);
+
+const newNav2 = document.createElement('a');
+newNav2.textContent = "Things";
+newNav2.style.color = "green";
+newNavHeader.appendChild(newNav2);
+
 
